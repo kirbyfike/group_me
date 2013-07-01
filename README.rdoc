@@ -1,0 +1,16 @@
+= GroupMe
+
+rails g group_u User Organization
+
+-> ie
+
+models
+
+Organization
+has_many :users
+
+User
+belongs_to :organization
+
+route
+org_name.example.com/users/5

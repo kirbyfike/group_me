@@ -7,11 +7,11 @@ require "group_me/version"
 Gem::Specification.new do |s|
   s.name        = "group_me"
   s.version     = GroupMe::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of GroupMe."
-  s.description = "TODO: Description of GroupMe."
+  s.authors     = ["Kirby Fike"]
+  s.email       = ["kirbyfike@gmail.com"]
+  s.homepage    = "https://github.com/kirbyfike/group_me"
+  s.summary     = "Summary of GroupMe."
+  s.description = "Description of GroupMe."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 

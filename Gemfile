@@ -6,6 +6,7 @@ source "http://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
+gem "jeweler", "~> 1.8.5"
 gem "jquery-rails"
 
 # Declare any dependencies that are still in development here instead of in
